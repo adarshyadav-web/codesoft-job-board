@@ -1,0 +1,108 @@
+.sidebar {
+    height: 150vh !important;
+    border-radius: 5px !important;
+    background-color: #2e2323;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    color: white !important;
+
+}
+
+.logo h6 {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+.menu-item {
+    margin-top: 30px;
+
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item i {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: white;
+}
+
+.active {
+    background-color: white;
+    padding: 10px;
+}
+
+.active a,
+.active i {
+    color: #2e2323;
+}
+
+/* updateProfile.css */
+.update-profile-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* updateProfile.css */
+.update-profile-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-profile-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.update-profile-container .form-group {
+    margin-bottom: 20px;
+}
+
+.update-profile-container label {
+    font-weight: 500;
+    color: #555;
+}
+
+.update-profile-container input {
+    height: 45px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.update-profile-container .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.update-profile-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #27374D;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
