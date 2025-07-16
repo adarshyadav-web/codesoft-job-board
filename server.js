@@ -10,8 +10,8 @@ const dotenv = require('dotenv');
 const path = require('path');
 const bodyParser = require('body-parser');
 const User = require('./models/userModels');
-const path = require('path');
-const fs = require('fs');
+
+// const fs = require('fs');
 
 // security imports
 const helmet = require('helmet');
@@ -97,14 +97,14 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static(path.join(__dirname, './client/build')));
 
 // Agar koi bhi route match na ho (wildcard route), React ka index.html bhejo
-app.get('*', function (req, res) {
-  const indexPath = path.join(__dirname, 'client', 'build', 'index.html');
-  if (fs.existsSync(indexPath)) {
-    res.sendFile(indexPath);
-  } else {
-    res.status(404).send("Frontend not found. Please build React app.");
-  }
-});
+// app.get('*', function (req, res) {
+//   const indexPath = path.join(__dirname, 'client', 'build', 'index.html');
+//   if (fs.existsSync(indexPath)) {
+//     res.sendFile(indexPath);
+//   } else {
+//     res.status(404).send("Frontend not found. Please build React app.");
+//   }
+// });
 
 // server configuration
 app.listen(PORT, () => {
